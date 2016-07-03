@@ -7,7 +7,6 @@ echo "sudo sslocal -c /etc/shadowsocks.json -d start"
 
 
 ## science
-sudo pip install numpy
 sudo pip install bpython
 
 ## utility
