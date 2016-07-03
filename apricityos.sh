@@ -1,4 +1,9 @@
-## shadowsocks
+
+## tmux
+sudo pacman -Syu
+sudo pacman -S tmux --noconfirm 
+
+## shadowsocks for fucking GFW
 sudo pip install shadowsocks
 sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o /etc/shadowsocks.json
 
