@@ -1,9 +1,9 @@
 ## shadowsocks
 sudo pip install shadowsocks
-sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o ~/shadowsocks.json
+sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o /etc/shadowsocks.json
 
 # modify shadowsocks config and start it:
-# sudo sslocal -c /etc/shadowsocks.json -d start
+echo "sudo sslocal -c /etc/shadowsocks.json -d start"
 
 
 ## science
