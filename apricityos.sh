@@ -1,41 +1,4 @@
 
-## alias
-## Colorize the ls output ##
-alias ls='ls --color=auto'
-## Use a long listing format ##
-alias ll='ls -la'
-## Show hidden files ##
-alias l.='ls -d .* --color=auto'
-## get rid of command not found ##
-alias ..='cd ..'
-
-## Colorize the grep command output for ease of use (good for log files)##
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-
-## handy short cuts ##
-alias c='clear'
-alias h='history'
-alias vi=vim
-
-## pass options to free ## 
-alias meminfo='free -m -l -t'
-## get top process eating memory
-alias psmem='ps auxf | sort -nr -k 4'
-alias psmem10='ps auxf | sort -nr -k 4 | head -10'
-## get top process eating cpu ##
-alias pscpu='ps auxf | sort -nr -k 3'
-alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
-## Get server cpu info ##
-alias cpuinfo='lscpu'
-## Get usb info ##
-alias usbinfo='lsusb'
-## get GPU ram on desktop / laptop## 
-alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
-
-
-
 ## pacman update
 sudo rm -f /var/lib/pacman/db.lck 
 sudo pacman -Syu
