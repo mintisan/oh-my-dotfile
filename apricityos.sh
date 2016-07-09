@@ -80,5 +80,6 @@ sudo pip install bpython ptpython
 
 ## utility
 sudo pip install tldr
+sudo pip install colout
 
 
