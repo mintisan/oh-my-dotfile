@@ -5,11 +5,15 @@ sudo pacman -Syu
 ## tmux & tmux.conf
 sudo pacman -S tmux --noconfirm
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-tmux/master/install.sh)"
+### Prefix + I
+### source ~/.tmux.conf
+
 ## ctags & cscope
 sudo pacman -S ctags cscope ack --noconfirm
-
 ## vim vimrc
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/install.sh)"
+### :PluginInstall
+### source ~/.vimrc
 
 ## Git & gitconfig
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/install.sh)"
