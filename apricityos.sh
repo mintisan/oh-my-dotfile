@@ -11,6 +11,10 @@ sudo pacman -S ctags cscope ack --noconfirm
 ## vim vimrc
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/install.sh)"
 
+## Git & gitconfig
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/install.sh)"
+
+
 ## sublime
 #mkdir ~/App
 #sudo curl https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2 -o ~/App/sublime_text_3_build_3114_x64.tar.bz2
