@@ -21,7 +21,8 @@ sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json
 # modify shadowsocks config and start it:
 echo "sudo sslocal -c /etc/shadowsocks.json -d start"
 
-
+## update pip
+sudo pip install --upgrade pip
 ## science
 sudo pip install bpython
 
