@@ -2,6 +2,10 @@
 ## pacman update
 sudo rm -f /var/lib/pacman/db.lck 
 sudo pacman -Syu
+
+## adb
+sudo pacman -S android-tools --noconfirm
+
 ## tmux & tmux.conf
 sudo pacman -S tmux --noconfirm
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-tmux/master/install.sh)"
