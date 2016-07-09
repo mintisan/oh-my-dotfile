@@ -24,6 +24,15 @@ sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json
 ## sudo sslocal -c /etc/shadowsocks.json -d start
 ## then set proxy to 127.0.0.1:1080 with socks
 
+
+## python enviroment manager
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+# Load pyenv automatically by adding
+# the following to ~/.zshrc:
+#export PATH="/home/liveuser/.pyenv/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
+
 ## update pip
 sudo pip install --upgrade pip
 ## science
