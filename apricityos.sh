@@ -2,8 +2,10 @@
 ## alias
 alias ll="ll -la"
 
-## tmux
+## pacman update
+sudo rm -f /var/lib/pacman/db.lck 
 sudo pacman -Syu
+## tmux
 sudo pacman -S tmux --noconfirm 
 
 ## sublime
