@@ -32,6 +32,12 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/i
 #sudo rm sublime_text_3_build_3114_x64.tar.bz2
 #alias subl="~/App/sublime_text_3/sublime_text"
 
+## aria2 for download something
+sudo pacman -S aria2 --noconfirm
+sudo curl https://raw.githubusercontent.com/mintisan/env/master/aria2.conf -o ~/.aria2.conf
+aria2c --conf-path="/home/liveuser/.aria2.conf" -D
+### http://ziahamza.github.io/webui-aria2/#
+
 ## shadowsocks for fucking GFW
 sudo pip install shadowsocks
 sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o /etc/shadowsocks.json
