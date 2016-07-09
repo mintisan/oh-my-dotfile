@@ -18,6 +18,11 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/i
 ## Git & gitconfig
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/install.sh)"
 
+## zsh
+sudo pacman -S autojump --noconfirm
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/install.sh)"
+### add autojump plugin
+### source ~/.zshrc
 
 ## sublime
 #mkdir ~/App
