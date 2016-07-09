@@ -20,8 +20,9 @@ sudo pacman -S tmux --noconfirm
 sudo pip install shadowsocks
 sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o /etc/shadowsocks.json
 
-# modify shadowsocks config and start it:
-echo "sudo sslocal -c /etc/shadowsocks.json -d start"
+## modify shadowsocks config and start it:
+## sudo sslocal -c /etc/shadowsocks.json -d start
+## then set proxy to 127.0.0.1:1080 with socks
 
 ## update pip
 sudo pip install --upgrade pip
