@@ -27,7 +27,7 @@ sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json
 ## update pip
 sudo pip install --upgrade pip
 ## science
-sudo pip install bpython
+sudo pip install bpython ptpython
 
 ## utility
 sudo pip install tldr
