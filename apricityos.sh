@@ -43,7 +43,7 @@ sudo pacman -Syu
 sudo pacman -S tmux --noconfirm
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-tmux/master/install.sh)"
 ## ctags & cscope
-sudo pacman -S ctags cscope --noconfirm
+sudo pacman -S ctags cscope ack --noconfirm
 
 ## vim vimrc
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/install.sh)"
