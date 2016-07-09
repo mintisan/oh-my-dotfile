@@ -1,6 +1,6 @@
 
 ## alias
-alias ll="ll -la"
+alias ll="ls -la"
 
 ## pacman update
 sudo rm -f /var/lib/pacman/db.lck 
