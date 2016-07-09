@@ -22,12 +22,6 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/i
 ## Git & gitconfig
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/install.sh)"
 
-## zsh
-sudo pacman -S autojump --noconfirm
-sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/install.sh)"
-### add autojump plugin
-### source ~/.zshrc
-
 ## sublime
 #mkdir ~/App
 #sudo curl https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2 -o ~/App/sublime_text_3_build_3114_x64.tar.bz2
@@ -68,4 +62,8 @@ sudo pip install bpython ptpython
 sudo pip install tldr
 sudo pip install colout
 
-
+## zsh
+sudo pacman -S autojump --noconfirm
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/install.sh)"
+### add autojump plugin
+### source ~/.zshrc
