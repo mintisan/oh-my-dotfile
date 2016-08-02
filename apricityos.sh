@@ -56,11 +56,13 @@ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-
 ## update pip
 sudo pip install --upgrade pip
 ## science
-sudo pip install bpython ptpython
+sudo pip install bpython ptpython ipython
+sudo pip install numpy scipy matplotlib pandas
 
 ## utility
 sudo pip install tldr
 sudo pip install colout
+sudo pip install tqdm
 
 ## zsh
 sudo pacman -S autojump --noconfirm
