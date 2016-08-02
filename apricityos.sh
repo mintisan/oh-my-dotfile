@@ -62,7 +62,8 @@ sudo pip install numpy scipy matplotlib pandas
 ## utility
 sudo pip install tldr
 sudo pip install colout
-sudo pip install tqdm
+sudo pip install tqdm 
+sudo pip install walkdir
 
 ## zsh
 sudo pacman -S autojump --noconfirm
