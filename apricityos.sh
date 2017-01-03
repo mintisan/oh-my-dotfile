@@ -55,9 +55,11 @@ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-
 
 ## update pip
 sudo pip install --upgrade pip
+
 ## science
 sudo pip install bpython ptpython ipython
 sudo pip install numpy scipy matplotlib pandas
+sudo pip install tensorflow
 
 ## utility
 sudo pip install tldr
