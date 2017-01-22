@@ -70,5 +70,6 @@ sudo pip install walkdir
 ## zsh
 sudo pacman -S autojump --noconfirm
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/install.sh)"
+### sudo chsh -s $(which zsh)
 ### add autojump plugin
 ### source ~/.zshrc
