@@ -25,6 +25,7 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/i
 ### source ~/.vimrc
 
 ## zsh
+sudo apt-get install zsh -y
 sudo apt-get install autojump -y
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/install.sh)"
 ### sudo chsh -s $(which zsh)
