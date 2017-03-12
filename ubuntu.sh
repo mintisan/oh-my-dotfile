@@ -24,6 +24,10 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/i
 ### :PluginInstall
 ### source ~/.vimrc
 
+## Python fro Machine Learning
+sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-python/master/install.sh)"
+
+
 ## zsh
 sudo apt-get install zsh -y
 sudo apt-get install autojump -y
