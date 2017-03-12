@@ -4,8 +4,8 @@ sudo apt-get update
 
 ## source file list
 
-## aptitude
-sudo apt-get install aptitude -y
+## utilities
+sudo apt-get install aptitude htop -y
 
 ## Git
 sudo apt-get install git -y
