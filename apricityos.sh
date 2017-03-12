@@ -32,13 +32,13 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-git/master/i
 
 ## aria2 for download something
 sudo pacman -S aria2 --noconfirm
-sudo curl https://raw.githubusercontent.com/mintisan/env/master/aria2.conf -o ~/.aria2.conf
+sudo curl https://raw.githubusercontent.com/mintisan/oh-my-dotfile/master/aria2.conf -o ~/.aria2.conf
 aria2c --conf-path="/home/liveuser/.aria2.conf" -D
 ### http://ziahamza.github.io/webui-aria2/#
 
 ## shadowsocks for fucking GFW
 sudo pip install shadowsocks
-sudo curl https://raw.githubusercontent.com/mintisan/env/master/shadowsocks.json -o /etc/shadowsocks.json
+sudo curl https://raw.githubusercontent.com/mintisan/oh-my-dotfile/master/shadowsocks.json -o /etc/shadowsocks.json
 
 ## modify shadowsocks config and start it:
 ## sudo sslocal -c /etc/shadowsocks.json -d start
