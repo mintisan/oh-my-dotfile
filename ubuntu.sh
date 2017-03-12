@@ -18,7 +18,7 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-tmux/master/
 ### source ~/.tmux.conf
 
 ## ctags & cscope
-sudo apt-get install ctags cscope ack vim -y
+sudo apt-get install ctags cscope ack-grep vim -y
 ## vim vimrc
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/install.sh)"
 ### :PluginInstall
