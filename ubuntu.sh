@@ -2,17 +2,10 @@
 ## ubuntu update
 sudo apt-get update
 
-## Shadowsocks
-## https://teddysun.com/486.html
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-chmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-
-
 ## source file list
 
 ## utilities
-sudo apt-get install aptitude htop wget curl aria2 gawk -y
+sudo apt-get install aptitude htop wget curl aria2 gawk openvpn -y
 
 ## Git
 sudo apt-get install git -y
@@ -33,6 +26,12 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-vim/master/i
 
 ## Python fro Machine Learning
 sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-python/master/install.sh)"
+
+## Shadowsocks
+## https://teddysun.com/486.html
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
 
 ## zsh
