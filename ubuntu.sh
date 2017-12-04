@@ -36,3 +36,9 @@ sh -c "$(curl -fSL https://raw.githubusercontent.com/mintisan/oh-my-zsh/master/i
 ### add autojump plugin
 ### source ~/.zshrc
 
+### add pyenv to .zshrc file
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+
+
+
