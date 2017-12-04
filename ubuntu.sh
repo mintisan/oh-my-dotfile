@@ -5,7 +5,7 @@ sudo apt-get update
 ## source file list
 
 ## utilities
-sudo apt-get install aptitude htop -y
+sudo apt-get install aptitude htop wget curl aria2 gawk -y
 
 ## Git
 sudo apt-get install git -y
