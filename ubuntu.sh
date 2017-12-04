@@ -5,7 +5,7 @@ sudo apt-get update
 ## source file list
 
 ## utilities
-sudo apt-get install aptitude htop wget curl aria2 gawk openvpn -y
+sudo apt-get install aptitude htop wget curl aria2 gawk openvpn mosh -y
 
 ## Git
 sudo apt-get install git -y
